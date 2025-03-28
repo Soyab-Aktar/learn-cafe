@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "releaseDate": "2025-03-20",
+      "title": "Mastering JavaScript: Tips for Beginners",
+      "hashtags": ["#JavaScript", "#Coding", "#WebDevelopment"],
+      "minutesToRead": 7,
+      "photo": "https://i.ibb.co/fdRb1CsB/2118573.png",
+      "thumbnail": "https://i.ibb.co/kgVLFL1t/4884785.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Emma Smith",
+      "releaseDate": "2025-03-18",
+      "title": "How to Build a Portfolio as a Frontend Developer",
+      "hashtags": ["#Frontend", "#Portfolio", "#Career"],
+      "minutesToRead": 5,
+      "photo": "https://i.ibb.co/fdRb1CsB/2118573.png",
+      "thumbnail": "https://i.ibb.co/hJ9JvKFC/19199360.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Michael Lee",
+      "releaseDate": "2025-03-16",
+      "title": "Understanding APIs: A Guide for Beginners",
+      "hashtags": ["#APIs", "#Backend", "#WebDevelopment"],
+      "minutesToRead": 6,
+      "photo": "https://i.ibb.co/fdRb1CsB/2118573.png",
+      "thumbnail": "https://i.ibb.co/chWDdvb3/it-specialist-writing-html-script-binary-code-database-security.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sophia Johnson",
+      "releaseDate": "2025-03-15",
+      "title": "10 Essential Tools for Every Developer",
+      "hashtags": ["#Tools", "#Development", "#Programming"],
+      "minutesToRead": 8,
+      "photo": "https://i.ibb.co/fdRb1CsB/2118573.png",
+      "thumbnail": "https://i.ibb.co/q3NqN3gm/programming-background-concept-1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "David Brown",
+      "releaseDate": "2025-03-14",
+      "title": "How to Get Your First Freelance Gig in Tech",
+      "hashtags": ["#Freelancing", "#Tech", "#Career"],
+      "minutesToRead": 9,
+      "photo": "https://i.ibb.co/fdRb1CsB/2118573.png",
+      "thumbnail": "https://i.ibb.co/99dB1007/programming-background-concept.jpg"
+    }
+  ]
+  
