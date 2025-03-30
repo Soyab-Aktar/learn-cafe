@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
-const Blog = ({blog}) => {
+import { FaBookmark } from "react-icons/fa";
+const Blog = ({blog, handleAddBookmark}) => {
     const {title,thumbnail,hashtags,photo,name,releaseDate,minutesToRead} = blog;
     return (
-        <div>
-            <img src={thumbnail} alt="" srcset="" />
+        <div className='mb-4 border-2 border-black p-2 rounded-md'>
+            <img className='rounded-md' src={thumbnail} alt="" srcset="" />
             <div>
                 <div className='flex justify-between py-4'>
                     <div className='flex items-center gap-5'>
@@ -14,21 +15,23 @@ const Blog = ({blog}) => {
                     </div>
                     </div>
 
-                    <div>
+                    <div className='flex items-center gap-3'>
                         <p className='font-semibold text-gray-500'>{minutesToRead} Minutes</p>
+                        <button onClick={()=>handleAddBookmark(blog)} className='text-xl'><FaBookmark /></button>
 
                     </div>
                 </div>
             </div>
-            <h1 className='text-4xl font-semibold'>{title}</h1>
+            <h1 className='text-4xl font-semibold mb-4'>{title}</h1>
             {
-                hashtags.map((tag,idx)=><span key={idx} className='mx-1'>{tag}</span>)
+                hashtags.map((tag,idx)=><span key={idx} className='mx-1 cursor-pointer'>{tag}</span>)
             }
         </div>
     );
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleAddBookmark: PropTypes.func
 }
 export default Blog;
